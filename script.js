@@ -23,6 +23,7 @@ function solution(arrayOfNumber){
 		console.log("Error", error);
 	});
 
-	solution(arrayOfNumber);
+	
 	
 }
+solution(arrayOfNumber);
