@@ -14,7 +14,7 @@ function solution(arrayOfNumber){
 		return new Promise((resolve,reject) => {
 			setTimeout(()=>{
 				const EvenMulti = evenNumber.map((num) => num*2);
-				output.InnerText = EvenMulti.join(",");
+				output.innerText = EvenMulti.join(",");
 				resolve(EvenMulti);
 			},2000);
 		});
